@@ -18,7 +18,7 @@ public class MazeGame
 			 //File fileTraverseMaze=new File("/home/pesit/Desktop/TraverseMaze.txt");
 			// Scanner sc2= new Scanner(fileTraverseMaze);
 			 //Change 15 to bigger no.
-			 int [][] maze=new int[15][5];
+			 int [][] maze=new int[500][5];
 			 int lines_in_readFile=0;
 			 BufferedReader br;
 			 br = new BufferedReader(new FileReader("CreateMaze.txt"));
@@ -26,7 +26,7 @@ public class MazeGame
 			 br1 = new BufferedReader(new FileReader("TraverseMaze.txt"));
 
 			 //Change both the values to bigger nos. traversalInstructions=new in
-			 int [][] traversalInstructions=new int [25][];
+			 int [][] traversalInstructions=new int [500][];
 			 int lines_in_traverseFile=0;
 			 
 			/* 
